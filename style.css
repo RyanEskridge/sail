@@ -1346,7 +1346,7 @@ form input[type=submit], form button, form input[type=reset] {
     font-size: 1.2em; }
 
 .fullwidth-block {
-  padding: 50px 0; }
+  padding: 10px 0; }
 
 .section-title {
   font-size: 30px;
@@ -1555,12 +1555,13 @@ ol.circle {
         font-style: normal; }
 
 .boxed-icon {
+  min-height: 250px;
   border-radius: 5px;
   border: 1px solid #edf2f4;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   padding: 30px 30px 30px 240px;
   position: relative;
-  margin-bottom: 30px; }
+  margin-bottom: 15px; }
   @media screen and (max-width: 640px) {
     .boxed-icon {
       padding-left: 30px; } }
