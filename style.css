@@ -1607,6 +1607,7 @@ ol.circle {
         .project-list .project:nth-child(2n+1) {
           clear: none; } }
     .project-list .project .project-content {
+      height: 450px;
       border: 1px solid #dde7ea;
       border-radius: 5px;
       padding: 20px;
