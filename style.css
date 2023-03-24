@@ -433,6 +433,13 @@ form input.white[type=reset] {
   *zoom: 1;
 }
 
+.row.centered {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
 .row:after {
   content: " ";
   clear: both;
@@ -2497,11 +2504,4 @@ figure img {
 
 .arrow-list.has-border li:last-child {
   border-bottom: none;
-}
-
-.innerDiv {
-  width: 200px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
