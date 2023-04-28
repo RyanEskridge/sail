@@ -123,13 +123,13 @@
 						<div class="col-md-3">
 							<div class="team">
 								<a href="team.php"><img src="images/person-Siddiqua.jpg" alt="" class="team-image"></a>
-								<h3 class="team-name">Ayesha Nipu</h3>
+								<h3 class="team-name">Ayesha Siddiqua</h3>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="team">
 								<a href="team.php"><img src="images/person-Siddika.jpg" alt="" class="team-image"></a>
-								<h3 class="team-name">Ayesha Siddiqua</h3>
+								<h3 class="team-name">Ayesha Nipu</h3>
 							</div>
 						</div>
 					</div> <!-- .row -->
