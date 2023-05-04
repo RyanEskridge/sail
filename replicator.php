@@ -112,8 +112,8 @@ include('timecheck.php');
                         <div class="col-12 col-md-6">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="146.7.45.26:8080/sail/replicator-assets/original.jpg"
-                                        class="img-original img-fluid" alt="Original">
+                                    <img src="replicator-assets/original.jpg" class="img-original img-fluid"
+                                        alt="Original">
                                 </div>
                                 <div class="card-header">
                                     <h5 class="card-title">Original</h5>
@@ -123,8 +123,8 @@ include('timecheck.php');
                         <div class="col-12 col-md-5">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="146.7.45.26:8080/sail/replicator-assets/output.png"
-                                        class="img-generated img-fluid" alt="Generated">
+                                    <img src="replicator-assets/output.png" class="img-generated img-fluid"
+                                        alt="Generated">
                                 </div>
                                 <div class="card-header">
                                     <h5 class="card-title">Generated</h5>
@@ -143,7 +143,7 @@ include('timecheck.php');
                     <div class="row">
                         <div class="col-md-11">
                             <div class="card" style="border: 0px">
-                                <?php $jsonString = file_get_contents('146.7.45.26:8080/sail/replicator-assets/data.json');
+                                <?php $jsonString = file_get_contents('/opt/lampp/htdocs/sail/replicator-assets/data.json');
                                 $data = json_decode($jsonString, true);
                                 echo '<h1>' . $data['prompt'] . '</h1>'; ?>
                             </div>

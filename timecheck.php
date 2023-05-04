@@ -28,7 +28,7 @@ function custom_copy($src, $dst)
     closedir($dir);
 }
 
-$sourceDir = "/opt/lampp/htdocs/auto-prompter/output";
+$sourceDir = "146.7.45.26:80/auto-prompter/output/";
 $targetDir = "/opt/lampp/htdocs/sail/replicator-assets";
 
 // Check if target directory is empty
@@ -41,7 +41,7 @@ if (count(glob($targetDir . "/*")) === 0) {
     if (file_exists($outputFile)) {
         $modifiedTime = filemtime($outputFile);
         $currentTime = time();
-        if (($currentTime - $modifiedTime) > 60 * 60 * 12) {
+        if (($currentTime - $modifiedTime) > 1) {
             // Copy contents of source directory to target directory
             custom_copy($sourceDir, $targetDir);
         }
