@@ -146,7 +146,7 @@
 								<br>
 							</div>
 						</div>
-
+						<!--
 						Project : Art Replicator
 						<div class="boxed-icon">
 							<a href="replicator.php"><img src="images/replicator-project.png" width="400" alt=""
@@ -160,7 +160,7 @@
 									AI with verbal descriptions of the work.</p>
 								<p><strong>Environment:</strong> Stable Diffusion, Python, Conda<br></p>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</main> <!-- .main-content -->
