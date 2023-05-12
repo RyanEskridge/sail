@@ -80,7 +80,7 @@ include('timecheck.php');
         <!-- HEADER CONTENT -->
         <div class="site-content">
             <?PHP
-
+            $selected = "replicator";
             require("header1.php");
 
             ?>
